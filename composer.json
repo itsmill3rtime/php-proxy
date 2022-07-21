@@ -1,24 +1,10 @@
 {
-    "name": "jenssegers/proxy",
+    "name": "itsmill3rtime/proxy",
     "description": "Proxy library that forwards requests to the desired url and returns the response.",
-    "keywords": ["proxy"],
-    "homepage": "https://github.com/jenssegers/php-proxy",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jens Segers",
-            "homepage": "https://jenssegers.com"
-        },
-        {
-            "name": "Ota Mares",
-            "email": "o.mares@rebuy.de",
-            "homepage": "http://www.rebuy.de"
-        }
-    ],
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "*",
         "psr/http-message": "^1.0",
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^7.2",
         "laminas/laminas-diactoros": "^2.0",
         "relay/relay": "^1.0",
         "laminas/laminas-httphandlerrunner": "^1.1"
